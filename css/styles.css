@@ -1,0 +1,994 @@
+:root {
+  --iris: #4D5AE5;
+  --ocean: #404BBF;
+  --navy-blue: #2E2F42;
+  --green: #31D0AA;
+  --slate: #434455;
+  --light-slate: #8E8F99;
+  --cornflower: #E7E9FC;
+  --cloud: #F4F4FD;
+  --navy-blue-modal: #2E2F42;
+  --grey: #2E2F42;
+  --white: #FFFFFF;
+  --dairy: #FCFCFC;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+
+/* --------------------- Text Configuration --------------------- */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-studio {
+  color: var(--navy-blue);
+}
+
+address {
+  font-style: normal;
+}
+
+.contact-item a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.hero_section_title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  text-align: center;
+}
+
+.hero-section_button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer
+}
+
+.main_advantages_list_element_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.main_advantages_list_element_description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.main_our_team_header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.main_our_team_list_element_description_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.main_our_team_list_element_description_role {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.main_our_portfolio_header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.main_our_portfolio-container {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.main_our_portfolio_list_element_description_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.main_our_portfolio_list_element_description_role {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.footer-logo-studio {
+  color: var(--cloud);
+}
+
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
+
+
+/* --------------------- Background Color Configuration --------------------- */
+
+.hero_section-container {
+  background-color: var(--navy-blue);
+}
+
+.hero-section_button {
+  background-color: var(--iris);
+}
+
+.main_our_team-container {
+  background-color: var(--cloud);
+}
+
+.main_our_team_list_element {
+  background-color: var(--white);
+}
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+/* --------------------- Links and Buttons Configuration --------------------- */
+.nav-item a:hover,
+.nav-item a:focus {
+  color: var(--ocean);
+  cursor: pointer;
+}
+
+.nav-item a:active {
+  color: var(--ocean);
+}
+
+.contact-item a:hover,
+.contact-item a:focus {
+  color: var(--ocean);
+  cursor: pointer;
+}
+
+.hero-section_button:hover,
+.hero-section_button:focus {
+  background-color: var(--ocean);
+  cursor: pointer;
+}
+
+
+/* --------------------- Flexbox and placement --------------------- */
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+/* ================ Header ================ */
+
+.header-container {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 328px;
+}
+
+.navigation-container {
+  display: flex;
+  align-items:center;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.navigation_list-container {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item,
+.nav-link {
+  padding: 24px 0;
+}
+
+.header_contact-list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+/* ================ Main - Hero ================ */
+
+.hero_section-container {
+  padding: 188px 0;
+}
+
+.hero_section-main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero_section_title {
+  max-width: 496px;
+  padding: 0px 0px 48px 0px;
+}
+
+.hero-section_button {
+  min-width: 169px;
+  padding: 16px 32px;
+  border: 0;
+  border-radius: 4px;
+}
+
+/* ================ Main - Advantages ================ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main_advantages-container {
+  padding: 120px 0px;
+}
+
+.main_advantages_list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.main_advantages_list_element {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+}
+
+.main_advantages_list_element_title {
+  margin-bottom: 8px;
+}
+
+/* ================ Main - Our Team ================ */
+
+.main_our_team-container {
+  padding: 120px 0px;
+}
+
+.main_our_team-main_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_our_team_header {
+  margin-bottom: 72px;
+}
+
+.main_our_team_list-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.main_our_team_list_image {
+  display: block;
+}
+
+.main_our_team_list_element_description_title {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.main_our_team_list_element_description_role {
+  padding: 0px 0px 32px 0px;
+  text-align: center;
+}
+
+.main_our_team_list_element {
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+
+.main_our_team_list_element-legend {
+  padding: 32px 0;
+}
+
+/* ================ Main - Our Portfolio ================ */
+
+.main_our_portfolio-container {
+  padding: 120px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_our_portfolio_header {
+  margin-bottom: 72px;
+}
+
+.main_our_portfolio_list-container {
+  width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.main_our_portfolio_list_image {
+  display: block;
+}
+
+.main_our_portfolio_list_element_description_title {
+  margin-bottom: 8px;
+}
+
+.main_our_portfolio_list_element-legend {
+  border: 1px solid var(--cornflower);
+  border-top: 0;
+  padding: 32px 16px;
+}
+
+/* ================ Footer ================ */
+
+.footer {
+  padding: 100px 0px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-description {
+  width: 264px;
+}
+
+
+
+/* --------------------- Svgs, transitions and background images --------------------- */
+
+/* ================ Hero background image ================ */
+
+.hero_section-container {
+  max-width: 1440px;
+  background-image: 
+  linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+  url(.././images/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+/* ================ advantages svgs ================ */
+
+.main_advantages_icon-container {
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  background-color: var(--cloud);
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_advantages_icon {
+  width: 64px;
+  height: 64px;
+}
+
+/* ================ our team svgs ================ */
+
+.main-our_team-icon_container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.main-our_team-icon_element_container {
+  width: 40px;
+  height: 40px;
+}
+
+.our_team-icon-link {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--iris);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.our_team-icon-link:hover,
+.our_team-icon-link:focus {
+  background-color: var(--ocean);
+}
+
+.main-our_team-icon {
+  fill: var(--cloud);
+}
+
+/* ================ footer svgs ================ */
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-legend_container {
+  margin-right: 120px;
+}
+
+.footer-social_media_container {
+  width: 208px;
+  height: 80px;
+}
+
+.footer-social_media-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.footer-icon_container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-icon_element_container {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--iris);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--green);
+}
+
+.footer-icon {
+  fill: var(--cloud);
+}
+
+/* ================ Our Portfolio Project Card Text Overlay ================ */
+
+.main_our_portfolio_list_element {
+  transition: 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main_our_portfolio_list_element:hover,
+.main_our_portfolio_list_element:focus {
+  box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.main_our_portfolio_list_element:hover .overlay-paragraph,
+.main_our_portfolio_list_element:focus .overlay-paragraph {
+  transform: translateY(0);
+}
+
+.image-overlay_container {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-paragraph {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+  padding: 40px 32px;
+  background-color: var(--iris);
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* ================ Transitions ================ */
+
+.nav-item a,
+.contact-item a {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-section_button {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our_team-icon-link,
+.footer-social-link {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+/* ================ Our Team shading ================ */
+
+.main_our_team_list_element {
+  box-shadow:
+  0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/* ================ Fixes ================ */
+
+.header-container {
+  box-shadow: 
+  0px 2px 1px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+/* ================ Current tab overlay ================ */
+
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  position: relative;
+}
+
+.nav-link-active {
+  color: var(--ocean);
+}
+
+.nav-link-active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--ocean);
+  border: none;
+  border-radius: 2px;
+}
+
+.hero_section-container {
+  max-width: 1440px;
+}
+
+/*  --------------------------------------------------------------------- Modal Button --------------------------------------------------------------------- */
+
+.modal-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(46, 47, 66, 0.4);;
+  visibility: hidden;
+  z-index: 999;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-backdrop.is-open {
+  visibility: initial;
+}
+
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 408px;
+  min-height: 584px;
+}
+
+.btn-close-modal {
+  padding: 0;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cornflower);
+  cursor: pointer;
+  transition: 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-close-modal:hover,
+.btn-close-modal:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.btn-close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-close-modal:hover .btn-close-icon,
+.btn-close-modal:focus .btn-close-icon {
+  fill: var(--white);
+}
+
+/*  ============== Stilizare Formular ============== */
+
+.modal-container {
+  padding: 72px 24px 24px 24px;
+  border: none;
+  border-radius: 4px;
+  background: #fcfcfc;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow:
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.modal-form-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2E2F42;
+  margin-bottom: 16px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+}
+
+.modal-form-input_container {
+  position: relative;
+}
+
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  outline: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 38px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-label_container {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 8px;
+}
+
+.modal-form-input:hover,
+.modal-form-input:focus,
+.modal-form-input:active {
+  border-color: #4D5AE5;
+}
+
+.modal-form-label_container:hover svg,
+.modal-form-label_container:focus svg,
+.modal-form-label_container:active svg {
+  fill: var(--iris);
+}
+
+.form-input-icon {
+  fill: var(--navy-blue);
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 16px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-input:focus + svg {
+  fill: var(--iris);
+}
+
+.modal-form-comment_container {
+  margin-bottom: 16px;
+}
+
+.modal-form-comment {
+  width: 100%;
+  height: 120px;
+  padding: 8px 16px;
+  background-color: transparent;
+  outline: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-comment:hover,
+.modal-form-comment:focus,
+.modal-form-comment:active {
+  border-color: #4D5AE5;
+}
+
+
+.modal-form-checkbox_container {
+  margin-bottom: 24px;
+}
+
+.checkbox-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;;
+}
+
+.checkbox-span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.modal-form-checkbox:checked + .checkbox-text .checkbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
+
+.terms-and-conditions {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+
+.modal-form_submit-button {
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  background-color: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  box-shadow:
+    0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form_submit-button:hover,
+.modal-form_submit-button:focus {
+  background-color: var(--ocean);
+}
+
+/*  ============== Footer Formular ============== */
+
+.footer-subscribe-form_container {
+  margin-left: 80px;
+  width: 453px;
+  height: 80px;
+}
+
+.footer-subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-subscribe_paragraph {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.footer-subscribe_input {
+  background-color: transparent;
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  box-shadow:
+    0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.footer-subscribe_input::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.footer-subscribe_button {
+  min-width: 165px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  position: relative;
+  color: var(--white);
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer-subscribe-icon {
+  fill: var(--white);
+  margin: 16px;
+}
+
+
+
+
+
+
+
+
+
